@@ -258,6 +258,8 @@ Hero
   -o-background-size: cover;
   background-size: cover;
   position: relative;
+  object-fit: fit;
+  align-content: center;
 
   /*.rsvp-btn {
     position: absolute;
