@@ -285,3 +285,8 @@ html[xmlns] .flexslider .slides {
   /*height: 180px !important;*/
   object-fit: fit;
 }
+
+.button-fix {      
+  justify-content: center;
+  align-content: center;    
+}
