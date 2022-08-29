@@ -251,7 +251,7 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  min-height: 350px;
+  /* min-height: 350px; */
   background: url('../img/hero-min.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -260,8 +260,7 @@ Hero
   position: relative;
   object-fit: fit;
   align-content: center;
-  flex-wrap: wrap;
-  height: auto;
+  flex-wrap: wrap;  
 
   /*.rsvp-btn {
     position: absolute;
@@ -285,7 +284,9 @@ Hero
     padding-top: 40%;
   }
   .hero-content img {
-    width: 55%;
+    /*width: 55%; */
+    width: auto;
+    height: auto;
     margin-bottom: 12%;
   }
 }
